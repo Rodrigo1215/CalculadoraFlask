@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        div{
+            text-align: center;
+            height: 250px;
+            width: 500px;
+            border-width: 10;
+            border-style: solid;
+            border-color: black;
+            
+            margin-top: 280px;
+            margin-left: auto;
+            margin-right: auto;
+    
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 >Calculadora</h1>
+        <form action="/calcular" method="POST" name="testes">
+        <p>Primeiro Numero:<input type="text" id="v1" name="v1"></p>
+        <p>Segundo Numero:<input type="text" id="v2" name="v2"></p>
+        <p>Escolha uma opção (Somar, Subtrair, Dividir, Multilicar):<input type="text" id="operador" name="operador"></p>
+        <p><input type="submit" name="enviar"></p>
+        </form>
+    </div>
+
+</body>
+</html>
